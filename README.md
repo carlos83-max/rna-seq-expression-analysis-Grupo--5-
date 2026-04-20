@@ -1,27 +1,44 @@
-# RNA-Seq Gene Expression Analysis
+# RNA-Seq Expression Analysis
 
-## Description
-This project aims to analyze gene expression from RNA-Seq data using a bioinformatics workflow.
+## Descripción
+Este proyecto tiene como propósito analizar la expresión génica en muestras biológicas utilizando datos de secuenciación de ARN (RNA-Seq). Se ha creado como una práctica de control de versiones y organización de proyectos bioinformáticos mediante Git y GitHub.
 
-## Objectives
-- Organize files and scripts in a GitHub repository.
-- Apply version control using Git.
-- Document the analysis process clearly.
-- Share the project with collaborators and the professor.
+## Objetivos
+- Crear y gestionar un repositorio en GitHub.
+- Organizar archivos y carpetas de un proyecto bioinformático.
+- Aplicar control de versiones con Git.
+- Documentar adecuadamente el proyecto.
+- Compartir el repositorio con fines académicos.
 
-## Project structure
-- `data/`: raw and processed data
-- `scripts/`: analysis scripts
-- `results/`: outputs, reports, and figures
-- `docs/`: notes and additional documentation
+## Estructura del proyecto
+- data/: datos crudos y procesados
+- scripts/: scripts de análisis
+- results/: resultados obtenidos
+- docs/: documentación adicional
+- README.md: descripción general del proyecto
 
-## Requirements
-- Linux, macOS, or Git Bash on Windows
-- Git installed
-- R / Python depending on the analysis
-- Basic knowledge of terminal commands
+## Requisitos
+- Sistema operativo Linux, macOS o Git Bash en Windows
+- Git instalado
+- Conocimientos básicos de terminal
+- R o Bash para ejecutar scripts
 
-## Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/usuario/rna-seq-gene-expression-analysis.git
+## Flujo de trabajo
+1. Organizar los datos en la carpeta data/raw/
+2. Procesar los archivos y guardar salidas en data/processed/
+3. Ejecutar scripts de control de calidad
+4. Ejecutar scripts de alineamiento y análisis
+5. Guardar resultados finales en la carpeta results/
+
+## Uso
+Clonar el repositorio:
+git clone https://github.com/usuario/rna-seq-expression-analysis.git
+
+Ingresar a la carpeta del proyecto:
+cd rna-seq-expression-analysis
+
+## Autores
+
+
+## Licencia
+MIT License
